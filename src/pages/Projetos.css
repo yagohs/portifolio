@@ -1,0 +1,31 @@
+#projetos h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.project-left {
+    display: flex;
+    height: 300px;
+    max-width: 100%;
+    border-bottom: 1px solid #4a4a4a;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.project-left p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-left img {
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+
