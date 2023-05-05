@@ -13,23 +13,23 @@ const Habilidade = () => {
         <div>
             <h2>Front-end.</h2>
             <div className='linguagens'>
-                <div className='control-img-left'>
+                <div className='control-img'>
                     <img src={Html} alt={Html} />
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, optio et quia veniam sequi omnis reiciendis! Obcaecati velit, quidem mollitia blanditiis, similique, neque quis hic reprehenderit eius ullam id qui.</p>
                 </div>
-                <div className="control-img-right">
+                <div className="control-img">
                     <img src={Css} alt={Css} />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid quibusdam fugiat placeat, mollitia labore voluptatem, autem perferendis dolorem, sapiente eligendi necessitatibus facilis tempore dolor ea temporibus eos odit maxime?</p>
                 </div>
-                <div className="control-img-right">
+                <div className="control-img">
                     <img src={Javascript} alt={Javascript} />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid quibusdam fugiat placeat, mollitia labore voluptatem, autem perferendis dolorem, sapiente eligendi necessitatibus facilis tempore dolor ea temporibus eos odit maxime?</p>
                 </div>
-                <div className="control-img-right">
+                <div className="control-img">
                     <img src={Reactjs} alt={Reactjs} />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid quibusdam fugiat placeat, mollitia labore voluptatem, autem perferendis dolorem, sapiente eligendi necessitatibus facilis tempore dolor ea temporibus eos odit maxime?</p>
                 </div>
-                <div className="control-img-right">
+                <div className="control-img">
                     <img src={Typescript} alt={Typescript} />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid quibusdam fugiat placeat, mollitia labore voluptatem, autem perferendis dolorem, sapiente eligendi necessitatibus facilis tempore dolor ea temporibus eos odit maxime?</p>
                 </div>

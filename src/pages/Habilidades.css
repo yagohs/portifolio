@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     border-bottom: 1px solid #4a4a4a;
 }
 
@@ -13,25 +14,22 @@
 }
 
 .linguagens {
-    display: flex;
-    flex-direction: column;
-    display: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1200px;
 }
 
-.control-img-left,
-.control-img-right {
+.control-img{
     display: flex;
     margin-bottom: 20px;
     border-bottom: 1px solid #4a4a4a;
-    width: 700px;
-    height: 150px;
+    height: 170px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.control-img-left img,
-.control-img-right img {
+.control-img img {
     width: 150px;
     margin-bottom: 20px;
 }
