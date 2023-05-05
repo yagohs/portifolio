@@ -15,23 +15,24 @@ const Habilidade = () => {
             <div className='linguagens'>
                 <div className='control-img'>
                     <img src={Html} alt={Html} />
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, optio et quia veniam sequi omnis reiciendis! Obcaecati velit, quidem mollitia blanditiis, similique, neque quis hic reprehenderit eius ullam id qui.</p>
+                    <h2>HTML5</h2>
+                    <p>Sigla para HyperText Markup Language — Linguagem de Marcação de Hipertexto —, o HTML é o componente base da web. Isso quer dizer que ele permite a construção de websites e a inserção de novos conteúdos, como imagens e vídeos, por meio dos hipertextos</p>
                 </div>
                 <div className="control-img">
                     <img src={Css} alt={Css} />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid quibusdam fugiat placeat, mollitia labore voluptatem, autem perferendis dolorem, sapiente eligendi necessitatibus facilis tempore dolor ea temporibus eos odit maxime?</p>
+                    <p>CSS é a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar estilo ao código criado por linguagens como HTML, XML ou XHTML, por exemplo. De forma prática, ela funciona como uma camada de personalização ao conteúdo visível.</p>
                 </div>
                 <div className="control-img">
                     <img src={Javascript} alt={Javascript} />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid quibusdam fugiat placeat, mollitia labore voluptatem, autem perferendis dolorem, sapiente eligendi necessitatibus facilis tempore dolor ea temporibus eos odit maxime?</p>
+                    <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc.</p>
                 </div>
                 <div className="control-img">
                     <img src={Reactjs} alt={Reactjs} />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid quibusdam fugiat placeat, mollitia labore voluptatem, autem perferendis dolorem, sapiente eligendi necessitatibus facilis tempore dolor ea temporibus eos odit maxime?</p>
+                    <p>React JS é uma biblioteca JavaScript para a criação de interfaces de usuário — ou UI (user interface). Criado em 2011 pelo time do Facebook, o React surgiu com o objetivo de otimizar a atualização e a sincronização de atividades simultâneas no feed de notícias da rede social, entre eles chat, status, listagem de contatos e outros.</p>
                 </div>
                 <div className="control-img">
                     <img src={Typescript} alt={Typescript} />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid quibusdam fugiat placeat, mollitia labore voluptatem, autem perferendis dolorem, sapiente eligendi necessitatibus facilis tempore dolor ea temporibus eos odit maxime?</p>
+                    <p>TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft que é uma extensão do JavaScript. Ela adiciona recursos avançados ao JavaScript, como a tipagem estática e interfaces, tornando mais fácil detectar e prevenir erros durante a fase de desenvolvimento.</p>
                 </div>
             </div>
         </div>
