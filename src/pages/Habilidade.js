@@ -11,7 +11,7 @@ const Habilidade = () => {
   return (
     <div className='container'>
         <div>
-            <h2>Front-end.</h2>
+            <h2 className='text-principal'>Front-end.</h2>
             <div className='linguagens'>
                 <div className='control-detalhe'>
                     <div className='control-img'>
