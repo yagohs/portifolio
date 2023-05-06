@@ -1,26 +1,100 @@
-nav {
+a {
+    color:#32A89C;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+#header {
+    box-sizing: border-box;
+    height: 70px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 1200px;
-    height: 60px;
-    margin: auto;
-    padding: auto;
-    border-bottom: 1px solid #4a4a4a;
+    justify-content: center;
+    padding: 1rem;
 }
 
-nav ul {
+#menu {
     display: flex;
-}
-
-nav ul li a {
-    color: #32a89c;
+    gap: .5em;
     font-size: 30px;
-    margin-left: 20px;
 }
 
-@media(max-width: 1200px) {
-    nav {
-        max-width: 100%;
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 20px;
+        right: 0;
+        height: 0;
+        transition: .3s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
     }
+    #nav.active #menu {
+        height: calc(250px - 20px);
+        background-color: #302f2f;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 1px solid #4a4a4a;
+    }
+
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        color: #32A89C;
+    }
+
+    #hamburguer {
+        display: block;
+        border-top: 2px solid;
+        width: 30px;
+    }
+
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 2px;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+        background-color: currentColor;
+    }
+
+    #nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburguer::before  {
+        transform: rotate(135deg);
+    }   
+
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
 }
