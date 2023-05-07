@@ -8,7 +8,7 @@
     grid-template-columns: repeat(2,1fr);
 }
 
-.project-left {
+.project-grid {
     display: flex;
     height: 300px;
     max-width: 100%;
@@ -18,14 +18,48 @@
     align-items: center;
 }
 
-.project-left p {
+.project-grid p {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.project-left img {
+.project-grid img {
     height: 300px;
     padding-bottom: 10px;
 }
 
+@media (max-width: 1024px) {
+    #projetos {
+        max-width: 100%;
+    }
+
+    .project {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-grid {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    #projetos {
+        max-width: 100%;
+    }
+
+    .project {
+        display: flex;
+        min-height: 80vh;
+    }
+
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+    }
+}
 

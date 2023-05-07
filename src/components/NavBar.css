@@ -28,6 +28,7 @@ a:hover {
 
 #btn-mobile {
     display: none;
+    padding: 10px 15px;
 }
 
 @media (max-width: 600px) {
