@@ -4,7 +4,7 @@ import { NavLink} from 'react-router-dom'
 
 function NavBar() {
 
-    const btnMobile = document.getElementById('btn-mobile')
+   
 
     function  handleClick() {
         const nav = document.getElementById('nav')
